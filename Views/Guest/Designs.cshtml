@@ -1,0 +1,305 @@
+﻿@{
+    ViewData["Title"] = "Designs";
+}
+
+<style>
+
+    .designs-banner {
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/designs-banner.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+
+    .section-title {
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #d4af37;
+    }
+
+    .filter-btn {
+        margin: 5px;
+    }
+
+    .product-card {
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+    .price {
+        color: #d4af37;
+        font-weight: bold;
+    }
+
+</style>
+
+
+<!-- BANNER -->
+
+<section class="designs-banner">
+
+    <div>
+        <h1 class="display-4 fw-bold">Jewellery Designs</h1>
+        <p>Explore our exclusive gold, silver & diamond collections</p>
+    </div>
+
+</section>
+
+
+<br>
+
+
+<!-- SEARCH BAR -->
+
+<div class="container mb-4">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <input type="text" id="searchInput" class="form-control" placeholder="Search Jewellery Designs...">
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- FILTER BUTTONS -->
+
+<div class="container text-center mb-4">
+
+    <button class="btn btn-outline-warning filter-btn" onclick="filterProducts('all')">All</button>
+    <button class="btn btn-outline-warning filter-btn" onclick="filterProducts('gold')">Gold</button>
+    <button class="btn btn-outline-warning filter-btn" onclick="filterProducts('silver')">Silver</button>
+    <button class="btn btn-outline-warning filter-btn" onclick="filterProducts('diamond')">Diamond</button>
+
+</div>
+
+
+<!-- PRODUCTS GRID -->
+
+<div class="container">
+
+    <div class="row" id="productGrid">
+
+
+        <!-- PRODUCT -->
+
+        <div class="col-md-3 mb-4 product gold">
+
+            <div class="card product-card" onclick="showProduct('Gold Ring','₹25,000','/images/ring.jpg')">
+
+                <img src="/images/ring.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Gold Ring</h5>
+
+                    <p class="price">₹25,000</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 mb-4 product gold">
+
+            <div class="card product-card" onclick="showProduct('Gold Necklace','₹75,000','/images/necklace.jpg')">
+
+                <img src="/images/necklace.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Gold Necklace</h5>
+
+                    <p class="price">₹75,000</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 mb-4 product gold">
+
+            <div class="card product-card" onclick="showProduct('Gold Bangles','₹45,000','/images/bangles.jpg')">
+
+                <img src="/images/bangles.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Gold Bangles</h5>
+
+                    <p class="price">₹45,000</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 mb-4 product silver">
+
+            <div class="card product-card" onclick="showProduct('Silver Chain','₹5,000','/images/silver-chain.jpg')">
+
+                <img src="/images/silver-chain.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Silver Chain</h5>
+
+                    <p class="price">₹5,000</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 mb-4 product diamond">
+
+            <div class="card product-card" onclick="showProduct('Diamond Ring','₹1,20,000','/images/diamond-ring.jpg')">
+
+                <img src="/images/diamond-ring.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Diamond Ring</h5>
+
+                    <p class="price">₹1,20,000</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 mb-4 product diamond">
+
+            <div class="card product-card" onclick="showProduct('Diamond Necklace','₹2,50,000','/images/diamond-necklace.jpg')">
+
+                <img src="/images/diamond-necklace.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Diamond Necklace</h5>
+
+                    <p class="price">₹2,50,000</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- PRODUCT MODAL -->
+
+<div class="modal fade" id="productModal">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title" id="productTitle"></h5>
+
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+
+            </div>
+
+            <div class="modal-body text-center">
+
+                <img id="productImage" class="img-fluid mb-3">
+
+                <h4 id="productPrice" class="price"></h4>
+
+                <p>Beautiful handcrafted jewellery made with premium materials.</p>
+
+                <button class="btn btn-warning">Enquire Now</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+    function filterProducts(category){
+
+    let products=document.querySelectorAll(".product");
+
+    products.forEach(p=>{
+
+    if(category=="all"||p.classList.contains(category))
+
+    p.style.display="block";
+
+    else
+
+    p.style.display="none";
+
+    });
+
+    }
+
+
+    function showProduct(name,price,image){
+
+    document.getElementById("productTitle").innerText=name;
+
+    document.getElementById("productPrice").innerText=price;
+
+    document.getElementById("productImage").src=image;
+
+    new bootstrap.Modal(document.getElementById('productModal')).show();
+
+    }
+
+
+    document.getElementById("searchInput").addEventListener("keyup",function(){
+
+    let value=this.value.toLowerCase();
+
+    let products=document.querySelectorAll(".product");
+
+    products.forEach(p=>{
+
+    let text=p.innerText.toLowerCase();
+
+    p.style.display=text.includes(value)?"block":"none";
+
+    });
+
+    });
+
+</script>

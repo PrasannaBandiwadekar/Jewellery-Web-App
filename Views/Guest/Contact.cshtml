@@ -1,0 +1,219 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<style>
+
+    .contact-banner {
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/contact-banner.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+
+    .section-title {
+        font-weight: 700;
+        margin-bottom: 25px;
+        color: #d4af37;
+    }
+
+    .contact-card {
+        padding: 25px;
+        transition: 0.3s;
+    }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+    .icon {
+        font-size: 30px;
+        color: #d4af37;
+        margin-bottom: 10px;
+    }
+
+</style>
+
+
+<!-- BANNER -->
+
+<section class="contact-banner">
+
+    <div>
+
+        <h1 class="display-4 fw-bold">Contact Us</h1>
+
+        <p>We are here to help you</p>
+
+    </div>
+
+</section>
+
+<br>
+
+
+<!-- CONTACT DETAILS -->
+
+<div class="container text-center">
+
+    <h2 class="section-title">Get in Touch</h2>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-4">
+
+            <div class="card contact-card">
+
+                <div class="icon">📍</div>
+
+                <h5>Our Address</h5>
+
+                <p>
+                    Nagesha Jewellers<br>
+                    Main Road,Opposite Of Ganapati Mandir<br>
+                    Shirol,Kolhapur, Maharashtra
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4 mb-4">
+
+            <div class="card contact-card">
+
+                <div class="icon">📞</div>
+
+                <h5>Phone</h5>
+
+                <p>+91 8421058477</p>
+
+                <p>+91 9850965541</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4 mb-4">
+
+            <div class="card contact-card">
+
+                <div class="icon">✉️</div>
+
+                <h5>Email</h5>
+
+                <p>bandiwadekarprasanna@gmail.com</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<br>
+
+
+<!-- CONTACT FORM -->
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+            <h2 class="section-title">Send Us a Message</h2>
+
+            <form>
+
+                <div class="mb-3">
+
+                    <label class="form-label">Full Name</label>
+
+                    <input type="text" class="form-control" placeholder="Enter your name">
+
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label class="form-label">Email</label>
+
+                    <input type="email" class="form-control" placeholder="Enter your email">
+
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label class="form-label">Phone</label>
+
+                    <input type="text" class="form-control" placeholder="Enter phone number">
+
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label class="form-label">Message</label>
+
+<textarea class="form-control" rows="4" placeholder="Write your message"></textarea>
+
+                </div>
+
+
+                <button class="btn btn-warning">Send Message</button>
+
+            </form>
+
+        </div>
+
+
+        <!-- MAP -->
+
+        <div class="col-md-6">
+
+            <h2 class="section-title">Our Location</h2>
+
+            <iframe width="100%"
+                    height="350"
+                    style="border:0"
+                    loading="lazy"
+                    allowfullscreen
+                    src="https://www.google.com/maps?q=Shirol,Maharashtra&output=embed">
+            </iframe>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<br>
+
+
+<!-- BUSINESS HOURS -->
+
+<section class="bg-light p-5">
+
+    <div class="container text-center">
+
+        <h2 class="section-title">Business Hours</h2>
+
+        <p><strong>Monday - Sunday:</strong> 10:00 AM - 9:00 PM</p>
+
+
+    </div>
+
+</section>

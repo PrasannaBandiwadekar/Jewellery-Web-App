@@ -1,0 +1,363 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+
+    .hero-section {
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/jewellery-banner.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+        .hero-section h1 {
+            font-size: 55px;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 20px;
+        }
+
+    .category-card {
+        transition: 0.3s;
+    }
+
+        .category-card:hover {
+            transform: scale(1.05);
+        }
+
+    .product-card {
+        transition: 0.3s;
+    }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+    .gold-text {
+        color: #d4af37;
+        font-weight: bold;
+    }
+
+    .section-title {
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+</style>
+
+
+<!-- HERO SECTION -->
+
+<section class="hero-section">
+    <div>
+
+        <h1>Nagesha Jewellers</h1>
+
+        <p>Luxury Gold & Silver Jewellery Collection</p>
+
+        <a href="/Guest/Designs" class="btn btn-warning btn-lg mt-3">Shop Now</a>
+
+    </div>
+</section>
+
+
+<br>
+
+
+<!-- CATEGORIES -->
+
+<div class="container">
+
+    <h2 class="text-center section-title">Shop by Category</h2>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-4">
+
+            <div class="card category-card shadow">
+
+                <img src="/images/gold.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h4 class="gold-text">Gold Jewellery</h4>
+
+                    <p>Traditional & modern gold designs</p>
+
+                    <a href="/Guest/Designs" class="btn btn-outline-warning">View</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4 mb-4">
+
+            <div class="card category-card shadow">
+
+                <img src="/images/silver.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h4 class="gold-text">Silver Jewellery</h4>
+
+                    <p>Stylish silver ornaments</p>
+
+                    <a href="/Guest/Designs" class="btn btn-outline-warning">View</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4 mb-4">
+
+            <div class="card category-card shadow">
+
+                <img src="/images/diamond.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h4 class="gold-text">Diamond Jewellery</h4>
+
+                    <p>Luxury diamond collection</p>
+
+                    <a href="/Guest/Designs" class="btn btn-outline-warning">View</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<br>
+
+
+<!-- FEATURED PRODUCTS -->
+
+<div class="container">
+
+    <h2 class="text-center section-title">Featured Jewellery</h2>
+
+    <div class="row">
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card product-card">
+
+                <img src="/images/ring.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Gold Ring</h5>
+
+                    <p class="gold-text">₹25,000</p>
+
+                    <button class="btn btn-warning">View Details</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card product-card">
+
+                <img src="/images/necklace.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Gold Necklace</h5>
+
+                    <p class="gold-text">₹75,000</p>
+
+                    <button class="btn btn-warning">View Details</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card product-card">
+
+                <img src="/images/bangles.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Gold Bangles</h5>
+
+                    <p class="gold-text">₹45,000</p>
+
+                    <button class="btn btn-warning">View Details</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card product-card">
+
+                <img src="/images/silver-chain.png" class="card-img-top">
+
+                <div class="card-body text-center">
+
+                    <h5>Silver Chain</h5>
+
+                    <p class="gold-text">₹5,000</p>
+
+                    <button class="btn btn-warning">View Details</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<br>
+
+
+<!-- WHY CHOOSE US -->
+
+<section class="bg-light p-5">
+
+    <div class="container text-center">
+
+        <h2 class="section-title">Why Choose Us</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <h4>✔ BIS Hallmarked</h4>
+
+                <p>100% certified gold jewellery</p>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <h4>✔ Premium Designs</h4>
+
+                <p>Traditional & modern collections</p>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <h4>✔ Trusted Jewellery Store</h4>
+
+                <p>Serving customers with trust</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<br>
+
+
+<!-- TESTIMONIALS -->
+
+<div class="container text-center">
+
+    <h2 class="section-title">Customer Reviews</h2>
+
+    <div class="row">
+
+        <div class="col-md-4">
+
+            <div class="card p-3 shadow">
+
+                <p>"Beautiful jewellery and excellent quality."</p>
+
+                <h6>- Priya</h6>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="card p-3 shadow">
+
+                <p>"Best gold shop with amazing designs."</p>
+
+                <h6>- Rahul</h6>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="card p-3 shadow">
+
+                <p>"Trusted jewellers with great service."</p>
+
+                <h6>- Sneha</h6>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<br>
+
+
+<!-- CALL TO ACTION -->
+
+<section class="bg-warning text-center p-5">
+
+    <h2>Discover Exclusive Jewellery Today</h2>
+
+    <p>Visit our store for beautiful collections</p>
+
+    <a href="/Guest/Contact" class="btn btn-dark btn-lg">Contact Us</a>
+
+</section>

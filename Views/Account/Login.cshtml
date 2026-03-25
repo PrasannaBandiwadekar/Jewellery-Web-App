@@ -1,0 +1,55 @@
+﻿@model NageshaJewellers.Models.User
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-4">
+
+            <div class="card shadow p-4">
+
+                <h3 class="text-center mb-4">Login</h3>
+
+                <form method="post">
+
+                    <div class="mb-3">
+
+                        <label>Email</label>
+
+                        <input asp-for="Email" class="form-control" />
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label>Password</label>
+
+                        <input asp-for="Password" type="password" class="form-control" />
+
+                    </div>
+
+                    <button class="btn btn-warning w-100">Login</button>
+
+                </form>
+
+                <p class="text-center mt-3">
+                    Don't have an account?
+                    <a href="/Account/Register">Register</a>
+                </p>
+
+                @if (ViewBag.Message != null)
+                {
+                    <p class="text-danger text-center">@ViewBag.Message</p>
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
