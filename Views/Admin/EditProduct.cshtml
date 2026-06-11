@@ -1,0 +1,62 @@
+﻿@model NageshaJewellers.Models.Product
+
+<div class="container mt-5">
+
+    <div class="card shadow p-4">
+
+        <h2>Edit Product</h2>
+
+        <form asp-action="EditProduct"
+              method="post">
+
+            <input type="hidden"
+                   asp-for="Id" />
+
+            <div class="mb-3">
+
+                <label>Name</label>
+
+                <input asp-for="Name"
+                       class="form-control" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Category</label>
+
+                <input asp-for="Category"
+                       class="form-control" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Price</label>
+
+                <input asp-for="Price"
+                       class="form-control" />
+
+            </div>
+
+            <div class="mb-3">
+
+                <label>Description</label>
+
+                <textarea asp-for="Description"
+                          class="form-control">
+                </textarea>
+
+            </div>
+
+            <button class="btn btn-warning">
+
+                Update Product
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>

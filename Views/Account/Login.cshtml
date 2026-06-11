@@ -1,4 +1,4 @@
-﻿@model NageshaJewellers.Models.User
+﻿@model NageshaJewellers.ViewModels.LoginViewModel
 
 @{
     ViewData["Title"] = "Login";
@@ -14,13 +14,22 @@
 
                 <h3 class="text-center mb-4">Login</h3>
 
-                <form method="post">
+                <form asp-action="Login" method="post">
+
+                    @Html.AntiForgeryToken()
+
+                    <div asp-validation-summary="All"
+                         class="text-danger"></div>
 
                     <div class="mb-3">
 
                         <label>Email</label>
 
-                        <input asp-for="Email" class="form-control" />
+                        <input asp-for="Email"
+                               class="form-control" />
+
+                        <span asp-validation-for="Email"
+                              class="text-danger"></span>
 
                     </div>
 
@@ -28,23 +37,40 @@
 
                         <label>Password</label>
 
-                        <input asp-for="Password" type="password" class="form-control" />
+                        <input asp-for="Password"
+                               type="password"
+                               class="form-control" />
+
+                        <span asp-validation-for="Password"
+                              class="text-danger"></span>
 
                     </div>
 
-                    <button class="btn btn-warning w-100">Login</button>
+                    <button type="submit"
+                            class="btn btn-warning w-100">
+                        Login
+                    </button>
+
+                    <div class="text-center mt-3">
+
+                        <a asp-action="ForgotPassword"
+                           asp-controller="Account">
+
+                            Forgot Password?
+
+                        </a>
+
+                    </div>
 
                 </form>
 
                 <p class="text-center mt-3">
                     Don't have an account?
-                    <a href="/Account/Register">Register</a>
+                    <a asp-controller="Account"
+                       asp-action="Register">
+                        Register
+                    </a>
                 </p>
-
-                @if (ViewBag.Message != null)
-                {
-                    <p class="text-danger text-center">@ViewBag.Message</p>
-                }
 
             </div>
 
@@ -53,3 +79,9 @@
     </div>
 
 </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

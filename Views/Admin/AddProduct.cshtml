@@ -1,0 +1,88 @@
+﻿@model NageshaJewellers.Models.Product
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow p-4">
+
+                <h2 class="text-center mb-4">
+                    Add Product
+                </h2>
+
+                <form asp-action="AddProduct"
+                      asp-controller="Admin"
+                      method="post"
+                      enctype="multipart/form-data">
+
+                    <div class="mb-3">
+
+                        <label>Name</label>
+
+                        <input asp-for="Name"
+                               class="form-control" />
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label>Category</label>
+
+                        <select asp-for="Category"
+                                class="form-control">
+
+                            <option>Gold</option>
+                            <option>Silver</option>
+                            <option>Diamond</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label>Price</label>
+
+                        <input asp-for="Price"
+                               class="form-control" />
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label>Description</label>
+
+                        <textarea asp-for="Description"
+                                  class="form-control">
+                        </textarea>
+
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label>Image</label>
+
+                        <input type="file"
+                               name="ImageFile"
+                               class="form-control" />
+
+                    </div>
+
+                    <button type="submit"
+                            class="btn btn-warning w-100">
+
+                        Add Product
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

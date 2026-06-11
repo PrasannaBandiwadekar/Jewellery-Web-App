@@ -1,5 +1,4 @@
-﻿@model NageshaJewellers.Models.User
-
+﻿@model NageshaJewellers.ViewModels.RegisterViewModel
 @{
     ViewData["Title"] = "Register";
 }
@@ -46,6 +45,13 @@
 
                         <input asp-for="Password" type="password" class="form-control" />
 
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Confirm Password</label>
+                        <input asp-for="ConfirmPassword"
+                               type="password"
+                               class="form-control" />
                     </div>
 
                     <button class="btn btn-warning w-100">Register</button>

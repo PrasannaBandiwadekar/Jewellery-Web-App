@@ -1,66 +1,162 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\",
+  "WorkspaceRootPath": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\nageshajewellers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:nageshajewellers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\views\\guest\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\views\\guest\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\views\\guest\\designs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\guest\\designs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\designs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\views\\guest\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\models\\enquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:models\\enquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\viewmodels\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:viewmodels\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\admin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\guest\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\productdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\guest\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\guest\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\guest\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\views\\guest\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers\\views\\guest\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:views\\guest\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\migrations\\20260510163026_initialprofessionalsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:migrations\\20260510163026_initialprofessionalsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\migrations\\20260520165518_addenquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:migrations\\20260520165518_addenquiry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\migrations\\20260520165351_addwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:migrations\\20260520165351_addwishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|c:\\users\\prasanna\\source\\repos\\nageshajewellers(pmt)\\migrations\\20260521085809_addforgotpasswordfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D038B727-CEEA-494B-A2BD-EF9F14B61A65}|NageshaJewellers.csproj|solutionrelative:migrations\\20260521085809_addforgotpasswordfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,183 +171,471 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GuestController.cs",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Controllers\\GuestController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GuestController.cs",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Controllers\\GuestController.cs",
-              "RelativeToolTip": "Controllers\\GuestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T09:02:53.839Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-21T05:05:43.839Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T08:59:51.754Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:09:50.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T07:13:51.508Z"
+              "WhenOpened": "2026-04-18T06:28:51.215Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-17T17:48:10.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBkAAAAMAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T07:04:59.114Z"
+              "WhenOpened": "2026-05-08T15:32:14.611Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Program.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwDYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAIAwwDIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T09:09:59.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:53:35.528Z"
+              "WhenOpened": "2026-04-18T06:10:27.387Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "NageshaJewellers.csproj",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\NageshaJewellers.csproj",
-              "RelativeDocumentMoniker": "NageshaJewellers.csproj",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\NageshaJewellers.csproj",
-              "RelativeToolTip": "NageshaJewellers.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-17T17:52:48.153Z"
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:03:44.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Services.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\Services.cshtml",
-              "RelativeDocumentMoniker": "Views\\Guest\\Services.cshtml",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\Services.cshtml",
-              "RelativeToolTip": "Views\\Guest\\Services.cshtml",
-              "ViewState": "AgIAAL0AAAAAAAAAAIBJwAUBAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T09:08:39.736Z"
+              "DocumentIndex": 6,
+              "Title": "Enquiry.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\Enquiry.cs",
+              "RelativeDocumentMoniker": "Models\\Enquiry.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\Enquiry.cs",
+              "RelativeToolTip": "Models\\Enquiry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:54:47.871Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\Home.cshtml",
-              "RelativeDocumentMoniker": "Views\\Guest\\Home.cshtml",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\Home.cshtml",
-              "RelativeToolTip": "Views\\Guest\\Home.cshtml",
-              "ViewState": "AgIAAGEBAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:13:31.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Designs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\Designs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\Designs.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\Designs.cshtml",
+              "RelativeToolTip": "Views\\Guest\\Designs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T09:06:16.119Z"
+              "WhenOpened": "2026-04-18T06:43:22.8Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T07:08:59.491Z"
+              "WhenOpened": "2026-05-21T09:40:41.871Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAGAAAAAAAAAA==",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\_ViewImports.cshtml",
+              "RelativeToolTip": "_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T07:15:08.346Z"
+              "WhenOpened": "2026-05-21T09:41:03.31Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Designs.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\Designs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Guest\\Designs.cshtml",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\Designs.cshtml",
-              "RelativeToolTip": "Views\\Guest\\Designs.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAIBJwHAAAAAAAAAAAAAAAA==",
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwCgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T09:09:16.127Z"
+              "WhenOpened": "2026-05-20T16:34:36.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GuestController.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "Controllers\\GuestController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:10:10.546Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "AboutUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\AboutUs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Guest\\AboutUs.cshtml",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\AboutUs.cshtml",
-              "RelativeToolTip": "Views\\Guest\\AboutUs.cshtml",
-              "ViewState": "AgIAALQAAAAAAAAAAIBJwL4AAAAKAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T09:08:07.536Z"
+              "WhenOpened": "2026-05-08T15:33:14.129Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Guest\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers\\Views\\Guest\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Guest\\Contact.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAIBJwMkAAAAAAAAAAAAAAA==",
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwDIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-06T09:09:43.822Z"
+              "WhenOpened": "2026-05-21T09:02:25.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T09:01:42.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20260521085809_AddForgotPasswordFields.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Migrations\\20260521085809_AddForgotPasswordFields.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260521085809_AddForgotPasswordFields.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Migrations\\20260521085809_AddForgotPasswordFields.cs",
+              "RelativeToolTip": "Migrations\\20260521085809_AddForgotPasswordFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T08:58:10.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\ViewModels\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ForgotPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\ViewModels\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ForgotPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T08:56:16.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ResetPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ResetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T08:56:49.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:06:20.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T15:33:23.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAALMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T06:37:57.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T05:14:29.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260520165518_AddEnquiry.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Migrations\\20260520165518_AddEnquiry.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260520165518_AddEnquiry.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Migrations\\20260520165518_AddEnquiry.cs",
+              "RelativeToolTip": "Migrations\\20260520165518_AddEnquiry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:55:18.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20260520165351_AddWishlist.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Migrations\\20260520165351_AddWishlist.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260520165351_AddWishlist.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Migrations\\20260520165351_AddWishlist.cs",
+              "RelativeToolTip": "Migrations\\20260520165351_AddWishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:53:51.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Wishlist.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\Wishlist.cs",
+              "RelativeDocumentMoniker": "Models\\Wishlist.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\Wishlist.cs",
+              "RelativeToolTip": "Models\\Wishlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T16:52:54.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditProduct.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Admin\\EditProduct.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditProduct.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T16:38:05.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\ProductDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\ProductDetails.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\ProductDetails.cshtml",
+              "RelativeToolTip": "Views\\Guest\\ProductDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T16:17:32.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T15:34:38.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T15:34:30.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-18T06:30:57.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T16:16:37.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260510163026_InitialProfessionalSetup.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Migrations\\20260510163026_InitialProfessionalSetup.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260510163026_InitialProfessionalSetup.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Migrations\\20260510163026_InitialProfessionalSetup.cs",
+              "RelativeToolTip": "Migrations\\20260510163026_InitialProfessionalSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T16:30:26.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T16:16:10.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Services.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\Services.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\Services.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\Services.cshtml",
+              "RelativeToolTip": "Views\\Guest\\Services.cshtml",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAmwAUBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T15:34:21.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\Home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\Home.cshtml",
+              "RelativeToolTip": "Views\\Guest\\Home.cshtml",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAmwGoBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T15:34:12.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Guest\\Contact.cshtml",
+              "ViewState": "AgIAALYAAAAAAAAAAAAqwNoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T15:33:55.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Views\\Guest\\AboutUs.cshtml",
+              "RelativeToolTip": "Views\\Guest\\AboutUs.cshtml",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAmwL4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T15:33:43.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Prasanna\\source\\repos\\NageshaJewellers(pmt)\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T06:05:19.028Z"
             }
           ]
         }

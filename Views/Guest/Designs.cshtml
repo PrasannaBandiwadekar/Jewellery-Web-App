@@ -1,247 +1,392 @@
-﻿@{
-    ViewData["Title"] = "Designs";
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<NageshaJewellers.Models.Product>
+@{
+    ViewData["Title"] = "Collections";
 }
 
 <style>
 
-    .designs-banner {
-        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/designs-banner.jpg');
+    body {
+        background-color: #f8f9fa;
+    }
+
+    /* HERO SECTION */
+
+    .collection-banner {
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/designs-banner.jpg');
         background-size: cover;
         background-position: center;
-        height: 350px;
+        height: 400px;
         display: flex;
-        align-items: center;
         justify-content: center;
-        color: white;
+        align-items: center;
         text-align: center;
+        color: white;
     }
 
-    .section-title {
-        font-weight: 700;
-        margin-bottom: 25px;
-        color: #d4af37;
-    }
-
-    .filter-btn {
-        margin: 5px;
-    }
-
-    .product-card {
-        transition: 0.3s;
-        cursor: pointer;
-    }
-
-        .product-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        .collection-banner h1 {
+            font-size: 60px;
+            font-weight: bold;
         }
 
-    .price {
+        .collection-banner p {
+            font-size: 22px;
+        }
+
+    /* SECTION */
+
+    .section-title {
         color: #d4af37;
         font-weight: bold;
     }
 
+    /* SEARCH */
+
+    .search-box {
+        border-radius: 30px;
+        padding: 12px 20px;
+    }
+
+    /* FILTER BUTTON */
+
+    .filter-btn {
+        margin: 5px;
+        border-radius: 30px;
+        padding: 8px 22px;
+    }
+
+    /* PRODUCT CARD */
+
+    .product-card {
+        border-radius: 15px;
+        overflow: hidden;
+        transition: 0.3s;
+        cursor: pointer;
+        background: white;
+    }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+    /* IMAGE */
+
+    .product-img {
+        height: 250px;
+        object-fit: cover;
+        padding: 10px;
+        background: #fff;
+    }
+
+    /* PRICE */
+
+    .price {
+        color: #d4af37;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    /* CATEGORY BADGE */
+
+    .category-badge {
+        background-color: #000;
+        color: white;
+        border-radius: 20px;
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+
+    /* MODAL IMAGE */
+
+    .modal-img {
+        max-height: 350px;
+        object-fit: contain;
+    }
+
+    /* EMPTY */
+
+    .empty-box {
+        padding: 60px;
+    }
+
 </style>
 
+<!-- HERO BANNER -->
 
-<!-- BANNER -->
-
-<section class="designs-banner">
+<section class="collection-banner">
 
     <div>
-        <h1 class="display-4 fw-bold">Jewellery Designs</h1>
-        <p>Explore our exclusive gold, silver & diamond collections</p>
+
+        <h1>
+            Our Jewellery Collections
+        </h1>
+
+        <p>
+            Explore Premium Gold, Silver & Diamond Designs
+        </p>
+
     </div>
 
 </section>
 
-
-<br>
-
-
-<!-- SEARCH BAR -->
-
-<div class="container mb-4">
-
-    <div class="row justify-content-center">
-
-        <div class="col-md-6">
-
-            <input type="text" id="searchInput" class="form-control" placeholder="Search Jewellery Designs...">
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- FILTER BUTTONS -->
-
-<div class="container text-center mb-4">
-
-    <button class="btn btn-outline-warning filter-btn" onclick="filterProducts('all')">All</button>
-    <button class="btn btn-outline-warning filter-btn" onclick="filterProducts('gold')">Gold</button>
-    <button class="btn btn-outline-warning filter-btn" onclick="filterProducts('silver')">Silver</button>
-    <button class="btn btn-outline-warning filter-btn" onclick="filterProducts('diamond')">Diamond</button>
-
-</div>
-
-
-<!-- PRODUCTS GRID -->
+<br />
 
 <div class="container">
 
+    <!-- TITLE -->
+
+    <div class="text-center mb-4">
+
+        <h2 class="section-title">
+
+            Exclusive Collections
+
+        </h2>
+
+        <p class="text-muted">
+
+            Total Products :
+            <strong>@Model.Count()</strong>
+
+        </p>
+
+    </div>
+
+    <!-- SEARCH BAR -->
+
+    <div class="row justify-content-center mb-4">
+
+        <div class="col-md-6">
+
+            <input type="text"
+                   id="searchInput"
+                   class="form-control shadow-sm search-box"
+                   placeholder="Search Jewellery..." />
+
+        </div>
+
+    </div>
+
+    <!-- FILTER BUTTONS -->
+
+    <div class="text-center mb-5">
+
+        <button class="btn btn-outline-warning filter-btn"
+                onclick="filterProducts('all')">
+
+            All
+
+        </button>
+
+        <button class="btn btn-outline-warning filter-btn"
+                onclick="filterProducts('gold')">
+
+            Gold
+
+        </button>
+
+        <button class="btn btn-outline-secondary filter-btn"
+                onclick="filterProducts('silver')">
+
+            Silver
+
+        </button>
+
+        <button class="btn btn-outline-dark filter-btn"
+                onclick="filterProducts('diamond')">
+
+            Diamond
+
+        </button>
+
+    </div>
+
+    <!-- PRODUCT GRID -->
+
     <div class="row" id="productGrid">
 
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4 product-item @item.Category.ToLower()">
 
-        <!-- PRODUCT -->
+                    <div class="card border-0 shadow-sm product-card h-100"
+                         onclick="openModal(
+                                    '@item.Name',
+                                    '@item.Price',
+                                    '@item.ImagePath',
+                                    '@item.Description',
+                                    '@item.Category',
+                                    '@item.Id'
+                                 )">
 
-        <div class="col-md-3 mb-4 product gold">
+                        <!-- IMAGE -->
 
-            <div class="card product-card" onclick="showProduct('Gold Ring','₹25,000','/images/ring.jpg')">
+                        <img src="@Url.Content(item.ImagePath)"
+                             class="card-img-top product-img"
+                             alt="@item.Name"
+                             onerror="this.src='/images/no-image.png'" />
 
-                <img src="/images/ring.png" class="card-img-top">
+                        <!-- BODY -->
 
-                <div class="card-body text-center">
+                        <div class="card-body text-center">
 
-                    <h5>Gold Ring</h5>
+                            <span class="category-badge">
 
-                    <p class="price">₹25,000</p>
+                                @item.Category
 
-                </div>
+                            </span>
 
-            </div>
+                            <h5 class="fw-bold mt-3">
 
-        </div>
+                                @item.Name
 
+                            </h5>
 
-        <div class="col-md-3 mb-4 product gold">
+                            <p class="price"">
 
-            <div class="card product-card" onclick="showProduct('Gold Necklace','₹75,000','/images/necklace.jpg')">
+                                ₹@item.Price
 
-                <img src="/images/necklace.png" class="card-img-top">
+                            </p>
 
-                <div class="card-body text-center">
+                            <button class="btn btn-warning w-100">
 
-                    <h5>Gold Necklace</h5>
+                                View Details
 
-                    <p class="price">₹75,000</p>
+                            </button>
 
-                </div>
+                        </div>
 
-            </div>
-
-        </div>
-
-
-        <div class="col-md-3 mb-4 product gold">
-
-            <div class="card product-card" onclick="showProduct('Gold Bangles','₹45,000','/images/bangles.jpg')">
-
-                <img src="/images/bangles.png" class="card-img-top">
-
-                <div class="card-body text-center">
-
-                    <h5>Gold Bangles</h5>
-
-                    <p class="price">₹45,000</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="col-md-3 mb-4 product silver">
-
-            <div class="card product-card" onclick="showProduct('Silver Chain','₹5,000','/images/silver-chain.jpg')">
-
-                <img src="/images/silver-chain.png" class="card-img-top">
-
-                <div class="card-body text-center">
-
-                    <h5>Silver Chain</h5>
-
-                    <p class="price">₹5,000</p>
+                    </div>
 
                 </div>
+            }
+        }
+        else
+        {
+            <div class="col-12 text-center empty-box">
+
+                <img src="/images/no-products.png"
+                     width="250"
+                     class="mb-3" />
+
+                <h3>
+
+                    No Jewellery Collections Available
+
+                </h3>
+
+                <p class="text-muted">
+
+                    Admin has not added products yet.
+
+                </p>
 
             </div>
-
-        </div>
-
-
-        <div class="col-md-3 mb-4 product diamond">
-
-            <div class="card product-card" onclick="showProduct('Diamond Ring','₹1,20,000','/images/diamond-ring.jpg')">
-
-                <img src="/images/diamond-ring.png" class="card-img-top">
-
-                <div class="card-body text-center">
-
-                    <h5>Diamond Ring</h5>
-
-                    <p class="price">₹1,20,000</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="col-md-3 mb-4 product diamond">
-
-            <div class="card product-card" onclick="showProduct('Diamond Necklace','₹2,50,000','/images/diamond-necklace.jpg')">
-
-                <img src="/images/diamond-necklace.png" class="card-img-top">
-
-                <div class="card-body text-center">
-
-                    <h5>Diamond Necklace</h5>
-
-                    <p class="price">₹2,50,000</p>
-
-                </div>
-
-            </div>
-
-        </div>
-
+        }
 
     </div>
 
 </div>
-
-
 
 <!-- PRODUCT MODAL -->
 
-<div class="modal fade" id="productModal">
+<div class="modal fade"
+     id="jewelModal"
+     tabindex="-1">
 
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
 
-        <div class="modal-content">
+        <div class="modal-content border-0 shadow">
 
-            <div class="modal-header">
+            <!-- HEADER -->
 
-                <h5 class="modal-title" id="productTitle"></h5>
+            <div class="modal-header border-0">
 
-                <button class="btn-close" data-bs-dismiss="modal"></button>
+                <h4 class="fw-bold">
+
+                    Product Details
+
+                </h4>
+
+                <button class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
 
             </div>
 
-            <div class="modal-body text-center">
+            <!-- BODY -->
 
-                <img id="productImage" class="img-fluid mb-3">
+            <div class="modal-body">
 
-                <h4 id="productPrice" class="price"></h4>
+                <div class="row align-items-center">
 
-                <p>Beautiful handcrafted jewellery made with premium materials.</p>
+                    <!-- IMAGE -->
 
-                <button class="btn btn-warning">Enquire Now</button>
+                    <div class="col-md-6 text-center">
+
+                        <img id="mImg"
+                             src=""
+                             class="img-fluid rounded modal-img shadow-sm" />
+
+                    </div>
+
+                    <!-- DETAILS -->
+
+                    <div class="col-md-6">
+
+                        <h2 id="mTitle"
+                            class="fw-bold">
+                        </h2>
+
+                        <h3 id="mPrice"
+                            class="price my-3">
+                        </h3>
+
+                        <span id="mCategory"
+                              class="badge bg-dark mb-3">
+                        </span>
+
+                        <p id="mDesc"
+                           class="text-muted mt-3">
+                        </p>
+
+                        <!-- WHATSAPP -->
+
+                        <a id="whatsappBtn"
+                           href="#"
+                           target="_blank"
+                           class="btn btn-success w-100 mt-3">
+
+                            Enquire via WhatsApp
+
+                        </a>
+
+                        <!-- EDIT -->
+
+                        <a id="editProductBtn"
+                           class="btn btn-primary w-100 mt-2">
+
+                            Edit Product
+
+                        </a>
+
+                        <!-- DELETE -->
+
+                        <a id="deleteProductBtn"
+                           class="btn btn-danger w-100 mt-2"
+                           onclick="return confirm('Are you sure you want to delete this product?')">
+
+                            Delete Product
+
+                        </a>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -250,56 +395,138 @@
     </div>
 
 </div>
+<div class="d-flex justify-content-center mt-4">
 
+    @Html.PagedListPager(
+    Model,
+    page => Url.Action("Designs", new { page }),
+        new PagedListRenderOptions
+        {
+            DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+            DisplayLinkToNextPage = PagedListDisplayMode.Always,
+            DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+            DisplayLinkToLastPage = PagedListDisplayMode.Always
+        })
+
+</div>              
 
 <script>
 
-    function filterProducts(category){
+    // FILTER PRODUCTS
 
-    let products=document.querySelectorAll(".product");
+    function filterProducts(category) {
 
-    products.forEach(p=>{
+        let products =
+            document.querySelectorAll(".product-item");
 
-    if(category=="all"||p.classList.contains(category))
+        products.forEach(product => {
 
-    p.style.display="block";
+            if (category === "all" ||
+                product.classList.contains(category)) {
 
-    else
+                product.style.display = "block";
 
-    p.style.display="none";
+            }
+            else {
 
-    });
+                product.style.display = "none";
 
+            }
+
+        });
     }
 
+    // SEARCH PRODUCTS
 
-    function showProduct(name,price,image){
+    document.getElementById("searchInput")
+        .addEventListener("keyup", function () {
 
-    document.getElementById("productTitle").innerText=name;
+            let value =
+                this.value.toLowerCase();
 
-    document.getElementById("productPrice").innerText=price;
+            let products =
+                document.querySelectorAll(".product-item");
 
-    document.getElementById("productImage").src=image;
+            products.forEach(product => {
 
-    new bootstrap.Modal(document.getElementById('productModal')).show();
+                let text =
+                    product.innerText.toLowerCase();
 
+                if (text.includes(value)) {
+
+                    product.style.display = "block";
+
+                }
+                else {
+
+                    product.style.display = "none";
+
+                }
+
+            });
+
+        });
+
+    // OPEN MODAL
+
+    function openModal(name,
+                       price,
+                       img,
+                       desc,
+                       category,
+                       id) {
+
+        // TITLE
+
+        document.getElementById("mTitle")
+            .innerText = name;
+
+        // PRICE
+
+        document.getElementById("mPrice")
+            .innerText = "₹" + price;
+
+        // IMAGE
+
+        document.getElementById("mImg")
+            .src = img;
+
+        // DESCRIPTION
+
+        document.getElementById("mDesc")
+            .innerText = desc;
+
+        // CATEGORY
+
+        document.getElementById("mCategory")
+            .innerText = category;
+
+        // WHATSAPP LINK
+
+        let whatsappMessage =
+            `Hello, I am interested in ${name} costing ₹${price}`;
+
+        let whatsappLink =
+            `https://wa.me/918421058477?text=${encodeURIComponent(whatsappMessage)}`;
+
+        document.getElementById("whatsappBtn")
+            .href = whatsappLink;
+
+        // EDIT BUTTON
+
+        document.getElementById("editProductBtn")
+            .href = `/Admin/EditProduct/${id}`;
+
+        // DELETE BUTTON
+
+        document.getElementById("deleteProductBtn")
+            .href = `/Admin/DeleteProduct/${id}`;
+
+        // SHOW MODAL
+
+        new bootstrap.Modal(
+            document.getElementById('jewelModal')
+        ).show();
     }
-
-
-    document.getElementById("searchInput").addEventListener("keyup",function(){
-
-    let value=this.value.toLowerCase();
-
-    let products=document.querySelectorAll(".product");
-
-    products.forEach(p=>{
-
-    let text=p.innerText.toLowerCase();
-
-    p.style.display=text.includes(value)?"block":"none";
-
-    });
-
-    });
 
 </script>
