@@ -9,7 +9,7 @@ namespace NageshaJewellers.Controllers
 {
     public class AccountController : Controller
     {
-        // DATABASE
+        // DATABASE DB
 
         private readonly AppDbContext _context;
 
